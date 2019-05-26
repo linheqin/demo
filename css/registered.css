@@ -1,0 +1,101 @@
+@charset "utf-8";
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: url("../image/图层0@2x.png") no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+/* 背景与logs */
+.wrap{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding: 1.8rem 1.02rem;
+	box-sizing: border-box;
+}
+.logs {
+	width: 4.76rem;
+	height: 1.93rem;
+	
+}
+.logs img {
+	width: 100%;
+}
+/*  */
+.form-box {
+/* 	overflow: hidden; */
+	margin-top: 3.25rem;
+	width: 8rem;
+}
+.form-content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 7.93rem;
+	border: 1px solid #c2c2c2;
+	border-radius: 0.13rem;
+	background-color: #FFFFFF;
+}
+.input-list {
+	flex: 1;
+	display: inline-flex;
+	align-items: center;
+	height: 100%;
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+	font-size: 0.4rem;
+	border-bottom: 1px solid #C2C2C2;
+}
+.form-content>.input-list:last-child {
+	border-bottom: none;
+}
+.getnum-btn{
+	border: none;
+	color: #36f143;
+	background: none;
+	font-size: 0.26rem;
+}
+.form-content>.input-list:nth-child(4) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #44BBFF;
+	color: #FFFFFF;
+	font-size: 0.4rem;
+}
+.form-content input {
+	FILTER: alpha(opacity=0); 
+	appearance:none;  
+	-moz-appearance:none;  
+	-webkit-appearance:none; 
+	margin: 0;
+	outline: none;
+	border: none;
+	background-color:transparent;
+}
+.input-list label {
+	margin-right: 0.26rem;
+}
+/*注册btn  */
+.regi-btn {
+	margin-top: 0.58rem;
+	height: 1.2rem;
+	width: 8rem;
+	border: none;
+	background: #44bbff;
+	border-radius: 0.6rem;
+	box-shadow: 0 0.29rem 1.06rem 0rem #44BBFF;
+	color: #ffffff;
+	font-size: 0.4rem;
+}
+/*  */
+
